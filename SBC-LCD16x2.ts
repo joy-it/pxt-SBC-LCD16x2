@@ -39,7 +39,6 @@ namespace SBCLCD16x2 {
      * Initializes the 16x2 LCD display
      */
     //% block="initialize 16x2LCD"
-    //% subcategory="LCD16x2"
     //% weight=100
     export function lcd16x2Init() {
         Backlight = 0x80;
@@ -94,7 +93,6 @@ namespace SBCLCD16x2 {
      * @param y The y position on the display from 0 (upper line) to 1 (lower line)
      */
     //% block="show String %s|at x %x|y %y on 16x2LCD"
-    //% subcategory="LCD16x2"
     //% weight=90
     //% x.min=0 x.max=15
     //% y.min=0 y.max=1
@@ -121,7 +119,6 @@ namespace SBCLCD16x2 {
      * Clears all outputs on the 16x2 LCD display
      */
     //% block="clear 16x2LCD"
-    //% subcategory="LCD16x2"
     //% weight=85
     export function lcd16x2Clear(): void {
         command(0x01);
@@ -132,7 +129,6 @@ namespace SBCLCD16x2 {
      */
     //% block="shift left on 16x2LCD"
     //% weight=61
-    //% subcategory="LCD16x2"
     export function lcd16x2ShiftLeft(): void {
         command(0x18);
     }
@@ -142,7 +138,6 @@ namespace SBCLCD16x2 {
      */
     //% block="shift right on 16x2LCD"
     //% weight=60
-    //% subcategory="LCD16x2"
     export function lcd16x2ShiftRight(): void {
         command(0x1C);
     }
@@ -152,7 +147,6 @@ namespace SBCLCD16x2 {
      */
     //% block="show cursor on 16x2LCD"
     //% weight=50
-    //% subcategory="LCD16x2"
     export function lcd16x2ShowCursor(): void {
         command(0x0E);
     }
@@ -162,7 +156,6 @@ namespace SBCLCD16x2 {
      */
     //% block="blinking Cursor on 16x2LCD"
     //% weight=40
-    //% subcategory="LCD16x2"
     export function lcd16x2BlinkingCursor(): void {
         command(0x0F);
     }
@@ -172,7 +165,6 @@ namespace SBCLCD16x2 {
      */
     //% block="hide cursor on 16x2LCD"
     //% weight=30
-    //% subcategory="LCD16x2"
     export function lcd16x2HideCursor(): void {
         command(0x0C);
     }
@@ -182,7 +174,6 @@ namespace SBCLCD16x2 {
      */
     //% block="set cursor back on 16x2LCD"
     //% weight=20
-    //% subcategory="LCD16x2"
     export function lcd16x2ReturnHome(): void {
         command(0x02);
     }
@@ -192,7 +183,6 @@ namespace SBCLCD16x2 {
      */
     //% block="turn off 16x2 LCD"
     //% weight=19
-    //% subcategory="LCD16x2"
     export function lcd16x2TurnOff(): void {
         lcd16x2BacklightOff();
         command(0x00);
@@ -203,7 +193,6 @@ namespace SBCLCD16x2 {
  */
     //% block="turn on 16x2 LCD"
     //% weight=19
-    //% subcategory="LCD16x2"
     export function lcd16x2TurnOn(): void {
         lcd16x2BacklightOn();
         command(0x04);
@@ -214,7 +203,6 @@ namespace SBCLCD16x2 {
  */
     //% block="turn off 16x2 LCD backlight"
     //% weight=18
-    //% subcategory="LCD16x2"
     export function lcd16x2BacklightOff(): void {
         Backlight = 0x00;
         set(0);
@@ -225,7 +213,6 @@ namespace SBCLCD16x2 {
  */
     //% block="turn on 16x2 LCD backlight"
     //% weight=17
-    //% subcategory="LCD16x2"
     export function lcd16x2BacklightOn(): void {
         Backlight = 0x80
         set(0);
