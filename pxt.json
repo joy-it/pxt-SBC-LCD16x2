@@ -7,7 +7,11 @@
     },
     "files": [
         "README.md",
-        "SBC-LCD16x2.ts"
+        "SBC-LCD16x2.ts",
+        "_locales/de/pxt-SBC-LCD16x2-jsdoc-strings.json",
+        "_locales/de/pxt-SBC-LCD16x2-strings.json",
+        "_locales/en/pxt-SBC-LCD16x2-jsdoc-strings.json",
+        "_locales/en/pxt-SBC-LCD16x2-strings.json"
     ],
     "testFiles": [
         "test.ts"
