@@ -1,0 +1,19 @@
+{
+  "SBCLCD16x2": "SBC-LCD16x2 Block",
+  "SBCLCD16x2.lcd16x2BacklightOff": " LCD16x2 Hintergrundbeleuchtung ausschalten",
+  "SBCLCD16x2.lcd16x2BacklightOn": "LCD16x2 Hintergrundbeleuchtung einschalten",
+  "SBCLCD16x2.lcd16x2BlinkingCursor": "Blinkenden Cursor des LCD16x2 aktivieren",
+  "SBCLCD16x2.lcd16x2Clear": "LCD16x2 Alle Inhalte löschen",
+  "SBCLCD16x2.lcd16x2HideCursor": "LCD16x2 Cursor deaktivieren",
+  "SBCLCD16x2.lcd16x2Init": "LCD16x2 initialisieren",
+  "SBCLCD16x2.lcd16x2ReturnHome": "LCD16x2 Cursor-Position zurücksetzen",
+  "SBCLCD16x2.lcd16x2ShiftLeft": "LCD16x2 Cursor nach links shiften",
+  "SBCLCD16x2.lcd16x2ShiftRight": "LCD16x2 Cursor nach rechts shiften",
+  "SBCLCD16x2.lcd16x2ShowCursor": "LCD16x2 Cursor aktivieren",
+  "SBCLCD16x2.lcd16x2ShowText": "Text auf dem LCD16x2 anzeigen",
+  "SBCLCD16x2.lcd16x2ShowText|param|text": "Der Text der auf dem Display angezeigt werden soll",
+  "SBCLCD16x2.lcd16x2ShowText|param|x": "Die X-Position auf dem Display von 0 (ganz links) bis 15 (ganz rechts)",
+  "SBCLCD16x2.lcd16x2ShowText|param|y": "Die Y-Position auf dem Display von 0 (obere Zeile) bis 1 (untere Zeile)",
+  "SBCLCD16x2.lcd16x2TurnOff": "LCD16x2 ausschalten",
+  "SBCLCD16x2.lcd16x2TurnOn": "LCD16x2 einschalten"
+}
