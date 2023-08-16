@@ -9,7 +9,7 @@
   "SBCLCD16x2.lcd16x2ShiftLeft|block": "LCD16x2 nach links shiften",
   "SBCLCD16x2.lcd16x2ShiftRight|block": "LCD16x2 nach rechts shiften",
   "SBCLCD16x2.lcd16x2ShowCursor|block": "LCD16x2 Cursor anzeigen",
-  "SBCLCD16x2.lcd16x2ShowText|block": "Zeige String %s|bei x %x|y %yauf LCD16x2",
+  "SBCLCD16x2.lcd16x2ShowText|block": "Zeige String %s bei x %x und y %y auf LCD16x2",
   "SBCLCD16x2.lcd16x2TurnOff|block": "LCD16x2 ausschalten",
   "SBCLCD16x2.lcd16x2TurnOn|block": "LCD16x2 einschalten",
   "SBCLCD16x2|block": "SBC-LCD16x2 Display",
